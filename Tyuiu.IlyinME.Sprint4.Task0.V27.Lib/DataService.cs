@@ -12,7 +12,6 @@ namespace Tyuiu.IlyinME.Sprint4.Task0.V27.Lib
     {
         public int GetMultOddArrEl(int[] array)
         {
-
             int mult = 1;
             for (int i = 0; i <= array.Length - 1; i++)
             {
