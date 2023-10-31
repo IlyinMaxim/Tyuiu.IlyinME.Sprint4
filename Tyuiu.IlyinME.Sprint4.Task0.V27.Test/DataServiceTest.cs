@@ -11,6 +11,7 @@ namespace Tyuiu.IlyinME.Sprint4.Task0.V27.Test
         [TestMethod]
         public void ValidGetMultOddArrEl()
         {
+
             DataService ds = new DataService();
             int[] numsArray = { 7, 4, 3, 2, 1, 5, 9, 8, 7, 4 };
             int res = ds.GetMultOddArrEl(numsArray);
